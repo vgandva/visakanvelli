@@ -3,7 +3,7 @@
 // Filename: venis_vr.ggsk
 // Generated 2025-10-03T21:09:34
 
-function pano2vrVrSkin(player,base) {
+function betagenVrSkin(player,base) {
 	player.addVariable('node_cloner_vr_hasUp', 2, false, { ignoreInState: 0  });
 	player.addVariable('node_cloner_vr_hasDown', 2, false, { ignoreInState: 0  });
 	player.addVariable('vis_info_hotspots', 0, "", { ignoreInState: 0  });

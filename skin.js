@@ -3,7 +3,7 @@
 // Filename: silhouette_v6.ggsk
 // Generated 2025-10-03T21:09:34
 
-function pano2vrSkin(player,base) {
+function betagenSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true, { ignoreInState: 1  });
 	player.addVariable('opt_zoom', 2, true, { ignoreInState: 1  });
 	player.addVariable('opt_autorotate', 2, true, { ignoreInState: 1  });

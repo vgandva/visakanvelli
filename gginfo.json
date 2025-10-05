@@ -14,7 +14,7 @@
 		"js": "skin_vr.js"
 	},
 	"player": {
-		"js": "pano2vr_player.js"
+		"js": "betagen_player.js"
 	},
 	"creationdate": "2025-10-03T15:39:53.741Z",
 	"configuration": "pano.xml",

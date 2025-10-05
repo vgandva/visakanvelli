@@ -36,7 +36,7 @@
 	</head>
 	<body>
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-		<script type="text/javascript" src="pano2vr_player.js?ts=5993741">
+		<script type="text/javascript" src="betagen_player.js?ts=5993741">
 		</script>
 		<script type="text/javascript" src="skin.js?ts=5993741">
 		</script>
@@ -89,14 +89,14 @@
 			}, 100);
 		}
 			// create the panorama player with the container
-			pano=new pano2vrPlayer("container");
+			pano=new betagenPlayer("container");
 			pano.startNode = startNode;
 			pano.startView = startView;
 			pano.setQueryParameter("ts=5993741")
 			// add the skin object
-			skin=new pano2vrSkin(pano);
+			skin=new betagenSkin(pano);
 			// add the vrskin object
-			vrskin=new pano2vrVrSkin(pano);
+			vrskin=new betagenVrSkin(pano);
 			// load the configuration
 			window.addEventListener("load", function() {
 				pano.readConfigUrlAsync("pano.xml?ts=5993741");
